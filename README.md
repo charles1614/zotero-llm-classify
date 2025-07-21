@@ -67,6 +67,7 @@ Batch applies the classification results to your Zotero library.
 
 - **[中文文档 / Chinese Documentation](./docs/README.md)** - 完整的中文使用指南
 - **[Detailed Scripts Guide](./docs/README_scripts.md)** - Comprehensive documentation for each script
+- **[Project Structure](./docs/PROJECT_STRUCTURE.md)** - File structure and data flow explanation
 - **[CLI Tool](./cli.py)** - Interactive Zotero management interface
 
 ## 📊 Data Flow

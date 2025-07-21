@@ -169,6 +169,7 @@ LLM返回: "01Theory" → 自动转换为: "I65XEE54"
 ## 📚 相关文档
 
 - [📖 详细脚本指南](./README_scripts.md) - 每个脚本的详细文档
+- [📁 项目结构说明](./PROJECT_STRUCTURE.md) - 文件结构和数据流说明
 - [🛠️ CLI工具](../cli.py) - 交互式Zotero管理界面
 - [🌐 English Documentation](../README.md) - English version
 
