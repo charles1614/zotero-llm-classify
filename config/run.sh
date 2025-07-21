@@ -1,0 +1,4 @@
+export ZOTERO_USER_ID=ZOTERO_USER_ID
+export ZOTERO_API_KEY=ZOTERO_API_KEY
+
+python cli.py
