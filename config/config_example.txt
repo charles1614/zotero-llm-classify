@@ -1,0 +1,20 @@
+# Zotero API配置示例
+# 请将这些变量设置到您的环境中
+
+# 在Linux/Mac中设置环境变量：
+export ZOTERO_USER_ID='your_user_id_here'
+export ZOTERO_API_KEY='your_api_key_here'
+
+# 在Windows中设置环境变量：
+set ZOTERO_USER_ID=your_user_id_here
+set ZOTERO_API_KEY=your_api_key_here
+
+# 或者在main.py中直接指定：
+# zotero = ZoteroManager(user_id='your_user_id', api_key='your_api_key')
+
+# 获取步骤：
+# 1. 访问 https://www.zotero.org/settings/keys
+# 2. 登录您的Zotero账户
+# 3. 点击"Create new private key"
+# 4. 设置权限（建议勾选所有权限）
+# 5. 获取User ID和API Key并替换上面的占位符 
