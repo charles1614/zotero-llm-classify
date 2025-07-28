@@ -17,11 +17,18 @@ from pathlib import Path
 from typing import Optional, Dict, Any
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
+from dotenv import load_dotenv
+
+load_dotenv()  # 在模块顶部加载
 
 
 class LLMConfig(BaseSettings):
     """LLM配置"""
-    model_config = SettingsConfigDict(env_prefix="LLM_", case_sensitive=False)
+    model_config = SettingsConfigDict(
+        env_prefix="LLM_", 
+        case_sensitive=False,
+        extra="ignore"
+    )
     
     # API类型
     api_type: str = Field(default="openai-compatible", description="LLM API类型")
