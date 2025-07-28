@@ -1,0 +1,28 @@
+[project]
+name = "zotero-llm-classify"
+version = "0.1.0"
+description = "Zotero literature classification using LLM"
+authors = [
+    {name = "Charles", email = "charles@example.com"}
+]
+dependencies = [
+    "pandas",
+    "requests",
+    "openpyxl",
+    "tqdm",
+    "google-genai",
+    "openai",
+    "python-dotenv>=1.1.1",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.uv]
+dev-dependencies = [] 

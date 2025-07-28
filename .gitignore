@@ -1,34 +1,12 @@
-# Python
+.venv/
+.cache/
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Data files
-data/
-*.xlsx
-*.json
-
-# Environment variables
+*.pyc
 .env
-*.env
-
-# IDE
 .vscode/
-.idea/
-*.swp
-*.swo
-*~
+.envrc
+tmp/
+data/
 
-# OS
+# Existing content below
 .DS_Store
-Thumbs.db
-
-# Logs
-*.log 
